@@ -1,0 +1,10 @@
+{
+	"id": "catala-obsidian",
+	"name": "Catala Language Support",
+	"version": "0.1",
+	"minAppVersion": "1.14.0",
+	"description": "Coloration syntaxique et masquage des blocs pour le langage Catala.",
+	"author": "Gautier Raimondi",
+	"authorUrl": "https://github.com/frosqh",
+	"isDesktopOnly": false
+}

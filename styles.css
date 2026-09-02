@@ -1,0 +1,37 @@
+body.catala-mode-code-only .markdown-source-view.mod-cm6 .cm-line:not(.HyperMD-codeblock) {
+    display: none;
+}
+
+body.catala-mode-text-only .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end) {
+    display: none;
+}
+
+body.catala-mode-text-only .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin,
+body.catala-mode-text-only .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+    opacity: 0.4;
+}
+
+body.catala-mode-text-only .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin::after {
+    content: " ⋯ (code masqué)";
+    font-style: italic;
+    font-size: 0.85em;
+    padding-left: 10px;
+}
+
+.catala-keyword {
+    color: #c678dd;
+    font-weight: bold;
+}
+
+.catala-type {
+    color: #e5c07b;
+    font-style: italic;
+}
+
+.catala-constant {
+    color: #d19a66;
+}
+
+.catala-operator {
+    color: #56b6c2;
+}
